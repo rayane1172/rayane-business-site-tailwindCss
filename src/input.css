@@ -28,7 +28,7 @@
     }
 
     :not(header)>.container {
-        @apply py-20;
+        @apply py-20 overflow-hidden;
 
     }
 
