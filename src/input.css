@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Open Sans', sans-serif;
+    }
+    :root {
+        @apply scroll-smooth;
+    }
+    * {
+        @apply box-border capitalize transition;
+    }
+
+    img {
+        @apply rounded-xl;
+    }
+}
+
+@layer components {
+    .links li a {
+        @apply font-bold py-2 px-2 rounded-2xl text-slate-600 bg-slate-100 hover:text-white hover:bg-slate-500;
+    }
+
+    .container {
+        @apply mx-auto;
+    }
+
+    :not(header)>.container {
+        @apply py-20;
+
+    }
+
+    .third-p .content .box {
+        @apply w-3/4 md:w-[200px] bg-gray-300 rounded-lg text-slate-700 text-center font-bold md:mb-20 leading-loose hover:bg-gray-100 p-3 drop-shadow-2xl hover:text-slate-900;
+    }
+}
