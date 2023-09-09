@@ -40,13 +40,13 @@ module.exports = {
           '0%':{
                 right:'-2.5rem',
                 width:'5px',
-                height:'1rem',
+                height:'100%',
                 backgroundColor:'orange',
         },
           '50%':{
                 right:'0',
                 width:'5px',
-                height:'1rem',
+                height:'100%',
                 backgroundColor:'#334155',
           },
           '100%':{

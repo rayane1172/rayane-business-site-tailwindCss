@@ -734,14 +734,6 @@ img {
   margin-top: 2rem;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -786,14 +778,6 @@ img {
   height: 100vh;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[80vh\] {
-  height: 80vh;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -820,6 +804,10 @@ img {
 
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .w-\[90\%\] {
@@ -1085,6 +1073,16 @@ img {
   padding-bottom: 1rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1131,6 +1129,11 @@ img {
 
 .text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1292,7 +1295,7 @@ img {
     content: var(--tw-content);
     right: -2.5rem;
     width: 5px;
-    height: 1rem;
+    height: 100%;
     background-color: orange;
   }
 
@@ -1300,13 +1303,13 @@ img {
     content: var(--tw-content);
     right: 0;
     width: 5px;
-    height: 1rem;
+    height: 100%;
     background-color: #334155;
   }
 
   100% {
     content: var(--tw-content);
-    right: -2px;
+    right: 0px;
     width: 100%;
     height: 100%;
     background-color: #334155;
@@ -1361,6 +1364,11 @@ img {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-orange-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(194 65 12 / var(--tw-text-opacity));
 }
 
 .hover\:brightness-150:hover {
@@ -1427,12 +1435,12 @@ img {
     margin-left: 1.5rem;
   }
 
-  .sm\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
   .sm\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .sm\:block {
+    display: block;
   }
 
   .sm\:flex {
@@ -1483,6 +1491,10 @@ img {
     width: 90%;
   }
 
+  .sm\:w-\[96px\] {
+    width: 96px;
+  }
+
   .sm\:w-full {
     width: 100%;
   }
@@ -1530,6 +1542,11 @@ img {
 
   .sm\:p-0 {
     padding: 0px;
+  }
+
+  .sm\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .sm\:pb-1 {
