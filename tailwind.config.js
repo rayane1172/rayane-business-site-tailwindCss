@@ -50,19 +50,41 @@ module.exports = {
                 backgroundColor:'#334155',
           },
           '100%':{
-                right:'-2px',
+                right:'0px',
                 width:'100%',
                 height:'100%',
                 backgroundColor:'#334155',
           }
 
-        }
+        },
+        // smoothMarcherightname:{
+        //   '0%':{
+        //         right:'-2.5rem',
+        //         width:'5px',
+        //         height:'1rem',
+        //         backgroundColor:'orange',
+        // },
+        //   '50%':{
+        //         right:'0',
+        //         width:'5px',
+        //         height:'1rem',
+        //         backgroundColor:'#e5e7eb',
+        //   },
+        //   '100%':{
+        //         right:'0px',
+        //         width:'100%',
+        //         height:'100%',
+        //         backgroundColor:'#e5e7eb',
+        //   }
+
+        // },
       },
       animation: {
         oneturn:'rotate180 1.5s ease-in-out infinite alternate',
         smallturn:'rotatesmall 0.5s ease-in-out infinite alternate',
         // smoothMarcheleft:'smoothMarcheleft 1.2s linear alternate infinite',
         smoothMarcheright:'smoothMarcheright 1.5s linear alternate infinite',
+        // smoothMarcherightname:'smoothMarcherightname 1.5s linear alternate infinite'
       },
       spacing:{
         'screen-1/2':'50vh', 
